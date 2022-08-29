@@ -1,0 +1,136 @@
+.box{
+    border:1px solid blue;
+    background-color: grey;
+    /* box-sizing: border-box; */
+    height: 400px;
+    width: 400px;
+    /* outline: 2px solid black;
+    outline-offset: 2px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* max-width: 500px;
+    min-width: 450px; */
+    /* display: block;
+    overflow: auto;*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* opacity: 0.5; */         
+
+}
+.box::before{
+    content: " My before box ";
+    border:4px solid yellow;
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    /* outline: 2px solid black;
+    outline-offset: 2px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 500px;
+    min-width: 450px; */
+    display: block;
+    overflow: auto;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+}
+
+.box::after{
+    content: " My after box ";
+    border:4px solid red;
+    background-color: orange;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    /* outline: 2px solid black;
+    outline-offset: 2px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 500px;
+    min-width: 450px; */
+    display: block;
+    overflow: auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+a{
+text-decoration: none;
+color: black;
+position: relative;
+}
+
+a::before{
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: cyan;
+    position: absolute ;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+
+
+a{
+    background-color: grey;
+    display: inline-block;
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+    border:1px solid black;
+    transition: background-color 5s,
+                color 5s,
+                padding 5s;
+
+}
+
+a:hover::before{
+    height: 20px;
+    background-color: red;
+
+}
+
+a:hover{
+    height: 20px;
+    background-color: cyan;
+    color: black;
+    padding: 10px 30px;
+}
+
+
+
+body{
+    background-color: white;
+
+}
+
+p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    float: left;
+}
+
+p::first-line{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+    color: brown;
+}
+
+::selection{
+    background-color: green;
+    color:white;
+
+
+}

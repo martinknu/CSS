@@ -1,0 +1,17 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.box{
+    position: sticky;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ccc;
+    padding: 20px;
+    top: 0;
+    color: black;
+
+
+}

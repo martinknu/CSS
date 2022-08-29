@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1.small {
+            font-size: 10px
+
+        }
+        body{
+            background-color: #f5f5f5;
+            background-image: url("BackgroundSmall.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 200px;
+        }
+        h1.#intro {
+            text-align: center;
+
+        }
+
+        /*Change div element to inline instead of block type*/
+        div{
+            display: inline-block;
+            border: 1px solid red;
+            width : 200 px;
+            height: 200 px;
+        }
+
+
+
+        div.red-border{
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+/* 
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+*/
+            /* Resetting the div CSS */
+            /*border: 1px solid black;
+            */
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+
+    <h1 class="small"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias blanditiis corporis, molestias, obcaecati iure provident nulla sed explicabo fugiat quia numquam amet, vitae aspernatur consectetur. Sunt illum molestias id repudiandae?</h1>
+
+    <h1 id="intro">This is my intro text</h1> with text beside me
+
+    <span>This is an inline element</span> with text beside me
+
+
+<div class="red-border">This has a border</div>
+
+</body>
+</html>
