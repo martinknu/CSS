@@ -1,0 +1,14 @@
+
+div{
+  background-color : red;
+  color: aqua;
+}
+
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+path {
+  fill: url(#g-shape);
+}

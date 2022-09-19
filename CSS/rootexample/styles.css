@@ -1,0 +1,28 @@
+:root{
+    --main-color: hotpink;
+    --starshape: "M833.333 3333L2500 2727L4166.67 3333L3750 2121L5000 1212H3333.33L2500 0L1666.67 1212H0L1250 2121L833.333 3333Z";
+}
+
+HTML body{
+    margin: auto;
+    padding: 20px;
+}
+
+body{
+    background: burlywood;
+
+
+}
+
+.container{
+    display: flex;
+    min-height: 4000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.frame{
+    clip-path: path(var(--starshape));
+}

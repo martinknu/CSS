@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div>
+            text in div
+            <p>text in p</p>
+        </div>
+        
+        <hr>
+
+
+        <article> 
+            <p> p inside article </p>
+        </article> 
+
+            <p> p outside article </p>
+
+        <hr>
+        <ul> <strong>Using CSS Child combinator "ul > li" meaning all li in ul </strong> 
+            <li> List item 1</li>
+            <li> List item 2</li>
+            <li> List item 3</li>
+        </ul>
+        <ol>
+            <li> List item 1</li>
+            <li> List item 2</li>
+            <li> List item 3</li>
+        </ol>
+        <hr>
+        <h1>Heading 1 using adjacent sibling combinator "h1 + div" meaning first div after h1 </h1>
+            <p> paragraph directly after h1</p>
+            <div>Div in between
+            </div>
+            <p> next paragraph after h1 enclosed in div</p>
+        
+        <hr>
+        
+        <h2>Heading 2 using general sibling "h2 ~ div" meaning all divs after this h2 </h2>
+            <p> paragraph directly after h1</p>
+            <div>Div in between
+            </div>
+            <p> next paragraph after h1 enclosed in div</p>
+        
+        <hr>
+
+        <h3>Heading 3 </h3>
+            <p> paragraph directly after h3</p>
+            <div>Div in between
+            </div>
+            <p> next paragraph after h3 enclosed in div</p>
+        
+        <hr>
+
+
+        <script src="javascript.js" async defer></script>
+    </body>
+</html>

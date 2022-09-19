@@ -1,0 +1,60 @@
+/* This CSS will affect all HTML elements*/
+*{
+color: burlywood;
+font-family: Verdana;
+margin: 5px;
+}
+
+
+body{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(73, 66, 62);
+}
+
+
+p{
+    text-align: left;
+}
+
+
+hr{
+    border: 2px solid saddlebrown;
+}
+
+
+/* targets all p within a div*/
+div p {
+    color: red;
+}
+
+
+/*targets all p within an article*/
+article p {
+    text-align: center;
+    color: blue;
+}
+
+
+/*Child combinator >*/
+ul > li{
+    border-top: 2px solid red;
+    text-align: left;
+}
+
+
+/*Adjacent sibling combinator
+  selects all p that come directly after an h1*/
+h1 + p {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/*General sibling combinator
+  selects all p that come anywhere after an h2*/
+h2 ~ p {
+    border: 2px solid blanchedalmond;
+    padding: 10px;   
+}
