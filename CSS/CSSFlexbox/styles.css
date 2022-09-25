@@ -1,52 +1,43 @@
-
-
-
 *{
     box-sizing: border-box;
 }
 
+/* Flex container */
 #container {
     display: flex;
     flex-wrap: wrap;
-
 }
 
+/* All divs within flex container*/
 #container div {
-    /* border: 1px solid red; */
     border-bottom: 2px solid black;
-
-}
-.navigation{
-    flex-basis: 20%;
-    flex-grow: 0;
-    flex-shrink: 1;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.content{
-    flex-basis: 80%;
-    flex-grow: 1;
-    flex-shrink: 0;
-}
-
+/* Header will have a flex basis of 100% to take up one whole column at all times*/
 .header{
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
+    flex-direction: row;
     background-color: #f5f5f5;
     padding: 20px;
-    /* border-bottom: 2px solid black; */
 }
 
-/* #container div {
-    border: 1px solid red;
-    flex-basis: 50%;
-    flex-shrink: 0;
-    flex-grow: 0;
-} */
-/* 
-#container div.right {
-    flex-basis: 95%;
+.navigation{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
 
-} */
+.content{
+    flex-basis: 80%;
+    flex-grow: 3;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+
+
 
