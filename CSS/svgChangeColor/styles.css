@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+  }
+
+
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    mix-blend-mode: difference;
+}
+
+
+
+.svg_class{
+    background-image: url(randomcircles.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: aliceblue;
+    width: 50vw;
+    height: 50vh;
+    fill: orange;
+}
+
+
+
+.img_svg_class{
+    width: 50vw;
+    height: 50vh;
+    fill: orange;
+    background-color: cyan;
+
+}
+
+.img_svg_class circle{
+    fill: orange;
+
+}
+
+.inline_svg_class circle{
+    fill: purple;
+}
+
+
+.img_svg_class circle{
+    fill: greenyellow;
+
+}
+
+
+rect {
+    fill: #ff0000; /* changes the color to red */
+  }
+  
