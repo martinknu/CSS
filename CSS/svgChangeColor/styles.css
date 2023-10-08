@@ -2,7 +2,11 @@ body {
     margin: 0;
   }
 
-
+div{
+height: auto;
+margin: auto;
+border: 1px solid green;
+}
 
 h2{
     margin: 0px;
@@ -20,6 +24,7 @@ h2{
     width: 50vw;
     height: 50vh;
     fill: orange;
+    border: 1px solid black;
 }
 
 
@@ -29,26 +34,29 @@ h2{
     height: 50vh;
     fill: orange;
     background-color: cyan;
-
+    border: 1px solid red;
 }
 
 .img_svg_class circle{
     fill: orange;
+    border: 1px solid cyan;
 
 }
 
 .inline_svg_class circle{
     fill: purple;
+    border: 1px solid green;
 }
 
 
 .img_svg_class circle{
     fill: greenyellow;
-
+    border: 1px solid purple;
 }
 
 
 rect {
     fill: #ff0000; /* changes the color to red */
+    border: 1px solid blue;
   }
   
