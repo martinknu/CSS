@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+  }
+
+div{
+  height: auto;
+  margin: auto;
+  border: 1px solid green;
+}
+
+#circle_1{
+  fill: purple;
+  stroke: none;
+}
+#circle_2{
+  fill: pink;
+  stroke: none;
+}
+#circle_3{
+  fill: azure;
+  stroke: none;
+}

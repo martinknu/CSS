@@ -11,10 +11,10 @@
     <body>
     <div>
         <div class="div_mix_blend_difference" > 
-            <h1>Change the color of inline HTML svg items with CSS</h1> 
-
+            <h1>Change the color of svg items in HTML</h1> 
         </div>
-        <div> Before change
+
+        <div> Before change to circle 1,2,3
             <svg xmlns="http://www.w3.org/2000/svg" class="svg_class_no_colorchange" height="100" width="100" >
                 <circle cx="50.0" cy="50.0" r="30" fill="yellow" stroke="black"  />
                 <circle cx="18" cy="72" r="14" fill="red" stroke="black"  />
@@ -26,28 +26,19 @@
                 <circle cx="30" cy="44" r="7" fill="orange" stroke="black"  /> 
             </svg>
         </div>
-        <div> After change
+        <div> After change to circle 1,2,3
             <svg xmlns="http://www.w3.org/2000/svg" class="inline_svg_class" height="100" width="100" >
-                <circle cx="50.0" cy="50.0" r="30" fill="yellow" stroke="black"  />
-                <circle cx="18" cy="72" r="14" fill="red" stroke="black"  />
-                <circle cx="59" cy="70" r="15" fill="yellow" stroke="black"  />
-                <circle cx="60" cy="77" r="12" fill="green" stroke="black"  />
-                <circle cx="52" cy="47" r="6" fill="blue" stroke="black"  />
-                <circle cx="40" cy="53" r="15" fill="cyan" stroke="black"  />
-                <circle cx="74" cy="41" r="8" fill="purple" stroke="black"  />
-                <circle cx="30" cy="44" r="7" fill="orange" stroke="black"  /> 
+                <circle id="circle_1" cx="50.0" cy="50.0" r="30" fill="yellow" stroke="black"  />
+                <circle id="circle_2" cx="18" cy="72" r="14" fill="red" stroke="black"  />
+                <circle id="circle_3" cx="59" cy="70" r="15" fill="yellow" stroke="black"  />
+                <circle id="circle_4" cx="60" cy="77" r="12" fill="green" stroke="black"  />
+                <circle id="circle_5" cx="52" cy="47" r="6" fill="blue" stroke="black"  />
+                <circle id="circle_6" cx="40" cy="53" r="15" fill="cyan" stroke="black"  />
+                <circle id="circle_7" cx="74" cy="41" r="8" fill="purple" stroke="black"  />
+                <circle id="circle_8" cx="30" cy="44" r="7" fill="orange" stroke="black"  /> 
             </svg>
         </div>
 
-        <div>
-            <h1>It does not work for svg's as div svg background with URL </h1>
-            <svg class="svg_class"> </svg>
-        </div>
-
-        <div>
-            <h1> It does not work for svg's added as images </h1>
-            <img class="img_svg_class" src="randomcircles.svg" />
-        </div>
 
         <script src="" async defer></script>
 
