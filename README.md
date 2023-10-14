@@ -19,8 +19,6 @@ CSS examples
 - [CSSLayerGradBack](#Useing a gradient on an image)
 - [CSSPseudoElements](#Use ::Before ::After to style e.g. divs before and after a specific div)
 
-
-
 - [images](#general image handeling)
 - [rootexample](#root variables, set up your css wih variables)
 - [cssselectors](#with examples of seletors e.g adjacent sibling elements +, general sibling elements ~ and so on.)
