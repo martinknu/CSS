@@ -1,21 +1,11 @@
 .box{
     border:1px solid blue;
     background-color: grey;
-    /* box-sizing: border-box; */
     height: 400px;
     width: 400px;
-    /* outline: 2px solid black;
-    outline-offset: 2px; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* max-width: 500px;
-    min-width: 450px; */
-    /* display: block;
-    overflow: auto;*/
     position: relative;
     top: 50px;
-    left: 50px;
-    /* opacity: 0.5; */         
+    left: 50px;   
 
 }
 .box::before{
@@ -25,12 +15,8 @@
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    /* outline: 2px solid black;
-    outline-offset: 2px; */
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 500px;
-    min-width: 450px; */
     display: block;
     overflow: auto;
     position: absolute;
@@ -46,12 +32,8 @@
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    /* outline: 2px solid black;
-    outline-offset: 2px; */
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 500px;
-    min-width: 450px; */
     display: block;
     overflow: auto;
     position: absolute;
