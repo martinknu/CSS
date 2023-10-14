@@ -8,14 +8,6 @@ body{
     padding: 0 ;
     margin: 0;
 }
-/* @media(max-width: 640px){
-
-    body{
-        background-color: red;
-
-    }
-
-} */
 
 #layout{
     display: flex;
@@ -41,29 +33,21 @@ padding: 20px;
 padding: 20px;
 }
 
-
 @media(max-width: 640px){
-
     #sidebar{
         flex-basis: 100%;
         border-bottom: 1px solid #aaa;
-    padding: 20px;
+        padding: 20px;
     }
-
     #content{
         flex-basis: 100%;
         border-bottom: 1px solid #aaa;
-    padding: 20px;
+        padding: 20px;
     }
-
 }
 
 @media(max-width: 475px){
-
     #sidebar{
-display: none;
+        display: none;
     }
-
-
-
 }
